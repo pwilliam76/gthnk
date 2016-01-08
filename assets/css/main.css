@@ -3030,10 +3030,12 @@
 
 	#banner {
 		background-color: #333447;
-		background-image: url("images/banner.svg");
-		background-position: 25% bottom;
-		background-repeat: repeat-x;
-		background-size: 1500px 300px;
+		background-image: url("images/banner-bar.svg");
+		background-position: 0% bottom;
+		background-repeat: no-repeat;
+		/*background-size: 1500px 300px;*/
+		background-size: 3000px 600px;
+
 		color: #fff;
 		padding: 16em 0 14em 0;
 		text-align: center;
@@ -3124,7 +3126,8 @@
 		/* Banner */
 
 			#banner {
-				background-size: 1125px 225px;
+				/*background-size: 1125px 225px;*/
+				background-size: 2250px 450px;
 				padding: 12em 0 10em 0;
 			}
 
@@ -3166,7 +3169,8 @@
 		/* Banner */
 
 			#banner {
-				background-size: 900px 180px;
+				/*background-size: 900px 180px;*/
+				background-size: 1500px 300px;
 				padding: 10em 0 8em 0;
 			}
 
